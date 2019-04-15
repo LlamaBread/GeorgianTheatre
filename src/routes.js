@@ -4,11 +4,13 @@ import Launchbtn from './components/launch-button.vue';
 import GigList from './components/show-gigs.vue';
 import Refreshments from './components/refreshments.vue';
 import Gallery from './components/gallery.vue'
+import Mailinglist from './components/mailing-list.vue';
 
 export default [
     {path: '/', component: Launchbtn },
     {path: '/selection', component: SelectScreen },
     {path: '/show-gigs', component: GigList },
     {path: '/refreshments', component: Refreshments},
-    {path: '/gallery', component: Gallery}
+    {path: '/gallery', component: Gallery},
+    {path: '/mailing-list', component: Mailinglist}
 ]
