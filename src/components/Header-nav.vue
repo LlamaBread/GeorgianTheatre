@@ -6,12 +6,12 @@
     </div>
     <ul v-if = "burgerToggle">
         <router-link to="/" id = "no-underline"><li><img class="icons" src="../assets/home-icon.png">Home</li></router-link>
-        <router-link to="/" id = "no-underline"><li><img class="icons" src="../assets/search-icon.png">Discover</li></router-link>
+        <router-link to="/show-gigs" id = "no-underline"><li><img class="icons" src="../assets/search-icon.png">Discover</li></router-link>
         <router-link to="/" id = "no-underline"><li><img class="icons" src="../assets/ticket-icon.png">Ticket Web</li></router-link>
-        <router-link to="/" id = "no-underline"><li><img class="icons" src="../assets/photo-icon.png">Gallery</li></router-link>
+        <router-link to="/gallery" id = "no-underline"><li><img class="icons" src="../assets/photo-icon.png">Gallery</li></router-link>
         <router-link to="/refreshments" id = "no-underline"><li><img class="icons" src="../assets/drink-icon.png">Refreshments</li></router-link>
         <router-link to="/" id = "no-underline"><li><img class="icons" src="../assets/heart-icon.png">Preferences</li></router-link>
-        <router-link to="/" id = "no-underline"><li><img class="icons" src="../assets/email-icon.png">Mailing List</li></router-link>
+        <router-link to="/mailing-list" id = "no-underline"><li><img class="icons" src="../assets/email-icon.png">Mailing List</li></router-link>
     </ul>
     </div>
 </template>
